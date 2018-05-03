@@ -169,7 +169,7 @@ void LeptonThread::run()
 			value = (frameBuffer[k] - minValue) * scale;
 			//printf("%u\n", frameBuffer[k]);
 			
-			const int *colormap = colormap_glowBow;
+			const int *colormap = colormap_rainbow;
 			color = qRgb(colormap[3*value], colormap[3*value+1], colormap[3*value+2]);
 			
 				if((k/PACKET_SIZE_UINT16) % 2 == 0){//1
