@@ -57,7 +57,7 @@ int main( int argc, char **argv )
 
 	thread->start();
 	
-	myWidget->showFullScreen();
+	myWidget->show();
 
 	return a.exec();
 }
