@@ -38,11 +38,11 @@ int main( int argc, char **argv )
 	myLabel.setPixmap(QPixmap::fromImage(myImage));
 
 	//create a FFC button
-	QPushButton *button1 = new QPushButton("Calibrar", myWidget);
+	QPushButton *button1 = new QPushButton("Calibrate", myWidget);
 	button1->setGeometry(ImageWidth/2-100, WindowHeight-60, 100, 30);
 	
 	//create a Snapshot button
-	QPushButton *button2 = new QPushButton("Tirar foto", myWidget);
+	QPushButton *button2 = new QPushButton("Screenshot", myWidget);
 	button2->setGeometry(ImageWidth/2+50, WindowHeight-60, 100, 30);
 
 	//create a thread to gather SPI data
